@@ -33,4 +33,7 @@ This repository implements a robust computer vision pipeline for aligning and st
 ## 🚀 Future Scope
 
 - Expansion to **N-image mosaicking** using cumulative homography chains.  
-- Implementation of **multi-band blending** to reduce seam artifacts.  
+- Implementation of **multi-band blending** to reduce seam artifacts.
+
+## Note
+In order to see the application of the class in `stitcher.py` on a custom image, check `SIFTBasedImageStitching.ipynb`
