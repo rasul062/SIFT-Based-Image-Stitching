@@ -10,7 +10,7 @@ This repository implements a robust computer vision pipeline for aligning and st
   Brute-Force Matcher (BFMatcher) with KNN (k-Nearest Neighbors) for initial correspondence.
 
 - **Outlier Rejection:**  
-  Lowe’s Ratio Test to filter weak matches and **RANSAC** to compute a robust Homography matrix, eliminating false positives.
+  **RANSAC** to compute a robust Homography matrix, eliminating false positives.
 
 - **Image Warping:**  
   Perspective transformation using the calculated Homography matrix to align the secondary image to the anchor reference frame.
