@@ -1,7 +1,7 @@
 # SIFT-Based-Image-Stitching
 This repository implements a robust computer vision pipeline for aligning and stitching overlapping image pairs. It utilizes SIFT (Scale-Invariant Feature Transform) for feature extraction and Homography estimation to map images into a shared coordinate system.
 
-## 🔧 Key Algorithms & Techniques
+## Key Algorithms & Techniques
 
 - **Feature Extraction:**  
   SIFT (Scale-Invariant Feature Transform) to detect robust keypoints invariant to scale and rotation.
@@ -17,7 +17,7 @@ This repository implements a robust computer vision pipeline for aligning and st
 
 ---
 
-## 📊 Visual Pipeline
+## Visual Pipeline
 
 1. **Feature Matching (BFMatcher)**  
    Visualization of valid feature matches between the left and right frames after applying ratio test filtering.   
@@ -29,7 +29,7 @@ This repository implements a robust computer vision pipeline for aligning and st
 
 ---
 
-## 🚀 Future Scope
+## Future Scope
 
 - Expansion to **N-image mosaicking** using cumulative homography chains.  
 - Implementation of **multi-band blending** to reduce seam artifacts.
