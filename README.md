@@ -7,7 +7,7 @@ This repository implements a robust computer vision pipeline for aligning and st
   SIFT (Scale-Invariant Feature Transform) to detect robust keypoints invariant to scale and rotation.
 
 - **Feature Matching:**  
-  Brute-Force Matcher (BFMatcher) with KNN (k-Nearest Neighbors) for initial correspondence.
+  Brute-Force Matcher (BFMatcher) for initial correspondence.
 
 - **Outlier Rejection:**  
   **RANSAC** to compute a robust Homography matrix, eliminating false positives.
